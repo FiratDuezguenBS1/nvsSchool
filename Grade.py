@@ -4,9 +4,9 @@ import Student
 
 class Grade:
 
-    def __init__(self, weight, date, level):
-        self.weight: float = weight
+    def __init__(self, weight: float, date, level: int):
+        self.weight = weight
         self.date = date
-        self.level: int = level
+        self.level = level
         self.course = Course
         self.student = Student
