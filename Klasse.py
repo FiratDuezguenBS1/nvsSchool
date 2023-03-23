@@ -1,6 +1,5 @@
 class Klasse:
 
-    students = []
-
-    def __init__(self, name):
+    def __init__(self, name: str, students: list):
         self.name = name
+        self.students = students
